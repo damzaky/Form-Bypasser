@@ -18,3 +18,12 @@ r[i].checked = true;
 var c = document.querySelectorAll('input[type=checkbox]');
 for (var i=0; i<c.length; i++)
 c[i].checked = true;
+
+
+// for google form:
+var rg = document.querySelectorAll('*[class*="radio"]');
+for(i=0;i<rg.length;i++)
+rg[i].click();
+var cg = document.querySelectorAll('*[class*="checkbox"]');
+for(i=0;i<cg.length;i++)
+cg[i].click();
