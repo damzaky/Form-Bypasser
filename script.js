@@ -25,6 +25,11 @@ var c = document.querySelectorAll('input[type=checkbox]');
 for (var i=0; i<c.length; i++)
 c[i].checked = true;
 
+var s=document.getElementsByTagName("select");
+for (var i=0; i<s.length; i++){
+r3=Math.floor((Math.random() * s[i].options.length) + 1); //randomizer
+s[i].selectedIndex = r3;
+}
 
 // for google form:
 var rg = document.querySelectorAll('*[class*="radio"]');
