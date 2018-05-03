@@ -3,7 +3,7 @@ var tx = "sesuatu";
 var t = document.querySelectorAll("input[type=text],textarea");
 var te = document.querySelectorAll("input[type=email]");
 var tp = document.querySelectorAll("input[type=password]");
-var r1,r2;
+var r1,r2,r3;
 for (var i=0; i<t.length; i++)
 t[i].value = tx;
 
