@@ -17,7 +17,7 @@ var r = document.querySelectorAll('input[type=radio]');
 for (var i=0; i<r.length; i++)
 r[i].checked = true;
 for (var i=0; i<r.length; i++){
-r1=Math.floor((Math.random() * r.length) + 1); //randomizer
+r1=Math.floor((Math.random() * r.length)); //randomizer
 r[r1].checked = true;
 }
 
@@ -27,7 +27,7 @@ c[i].checked = true;
 
 var s=document.getElementsByTagName("select");
 for (var i=0; i<s.length; i++){
-r3=Math.floor((Math.random() * s[i].options.length) + 1); //randomizer
+r3=Math.floor((Math.random() * s[i].options.length)); //randomizer
 s[i].selectedIndex = r3;
 }
 
@@ -36,7 +36,7 @@ var rg = document.querySelectorAll('*[class*="radio"]');
 for(i=0;i<rg.length;i++)
 rg[i].click();
 for (var i=0; i<rg.length; i++){
-r2=Math.floor((Math.random() * rg.length) + 1); //randomizer
+r2=Math.floor((Math.random() * rg.length)); //randomizer
 r[r2].checked = true;
 }
 var cg = document.querySelectorAll('*[class*="checkbox"]');
