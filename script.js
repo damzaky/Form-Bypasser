@@ -23,6 +23,7 @@ r[i].checked = true;
 for (var i=0; i<r.length; i++){
 r1=Math.floor((Math.random() * r.length)); //randomizer
 r[r1].checked = true;
+
 }
 
 var c = document.querySelectorAll('input[type=checkbox]');
@@ -41,7 +42,7 @@ for(i=0;i<rg.length;i++)
 rg[i].click();
 for (var i=0; i<rg.length; i++){
 r2=Math.floor((Math.random() * rg.length)); //randomizer
-r[r2].checked = true;
+rg[r2].checked = true;
 }
 var cg = document.querySelectorAll('*[class*="checkbox"]');
 for(i=0;i<cg.length;i++)
