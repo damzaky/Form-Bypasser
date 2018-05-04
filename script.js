@@ -3,6 +3,7 @@ var tx = "sesuatu";
 var t = document.querySelectorAll("input[type=text],textarea");
 var te = document.querySelectorAll("input[type=email]");
 var tp = document.querySelectorAll("input[type=password]");
+var tn = document.querySelectorAll("input[type=number]");
 var r1,r2,r3;
 for (var i=0; i<t.length; i++)
 t[i].value = tx;
@@ -12,6 +13,9 @@ te[i].value = tx+"@a.com";
 
 for (var i=0; i<tp.length; i++)
 tp[i].value = tx;
+
+for (var i=0; i<tn.length; i++)
+tn[i].value = Math.floor((Math.random() * 100) + 1);
 
 var r = document.querySelectorAll('input[type=radio]');
 for (var i=0; i<r.length; i++)
