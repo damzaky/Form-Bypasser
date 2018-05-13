@@ -23,7 +23,6 @@ r[i].checked = true;
 for (var i=0; i<r.length; i++){
 r1=Math.floor((Math.random() * r.length)); //randomizer
 r[r1].checked = true;
-
 }
 
 var c = document.querySelectorAll('input[type=checkbox]');
