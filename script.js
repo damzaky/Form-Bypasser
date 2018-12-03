@@ -1,4 +1,4 @@
-var tx = "sesuatu";
+var tx = "form bypasser by https://github.com/damzaky/Form-Bypasser/";
 
 var t = document.querySelectorAll("input[type=text],textarea");
 var te = document.querySelectorAll("input[type=email]");
